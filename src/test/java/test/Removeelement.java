@@ -42,6 +42,8 @@ WebDriver driver;
 		Thread.sleep(4000);
 
 		
+		// CRM ko xpath  --> //ul[@id='side-menu']/descendant::span[contains(text(),'CRM')]
+		
 //	    5. Click on Bank & Cash
 			By BANK_N_BALANCE_MENU_LOCATOR = By.xpath("//ul[@id='side-menu']/descendant::span[text()='Bank & Cash']");				
 			driver.findElement(BANK_N_BALANCE_MENU_LOCATOR).click(); Thread.sleep(3000);
